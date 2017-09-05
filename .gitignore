@@ -45,6 +45,5 @@ test/spec/*.js.map
 # Test
 /stdout
 /stderr
-/lib/
 /coverage/
 /dts/
