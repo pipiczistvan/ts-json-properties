@@ -29,7 +29,7 @@ export class Properties {
             throw new Error("Cannot find file properties '"+ file +"'");
         }
 
-        let properties = require(file);
+        let properties = Fs.readFileSync(file).toJSON();
 
         for(let key in properties){
 
